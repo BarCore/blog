@@ -1,11 +1,11 @@
 # Site settings
-title: Blog - Ravindu Nanayakkara
+title: Clean Blog
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "blog.ravindu.xyz"
+baseurl: ""
+url: "http://yourdomain.com"
 twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
@@ -22,4 +22,4 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-
+gems: [jekyll-paginate, jekyll-feed]
